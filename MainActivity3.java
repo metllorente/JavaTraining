@@ -9,9 +9,7 @@ import java.util.*;
 
 public class MainActivity3 {
 
-    //private static final Map<String, Integer> productsList = new LinkedHashMap<>();
-    private static final Queue<String> productList = new LinkedList<>();
-    
+    private static final Map<String, Integer> productsList = new LinkedHashMap<>(); 
     
     public static void main(String[] args) {
     	carProducts();

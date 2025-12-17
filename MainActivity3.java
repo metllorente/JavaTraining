@@ -14,7 +14,8 @@ public class MainActivity3 {
     public static void main(String[] args) {
     	carProducts();
 
-        try (Scanner scanner = new Scanner(System.in)) {
+        Scanner scanner = new Scanner(System.in);
+        
             while (true) {
                 displayMenu();
                 System.out.print("> ");
@@ -47,7 +48,6 @@ public class MainActivity3 {
                 }
             }
         }
-    }
 
     private static void carProducts() {
     	productsList.put("Intercooler", 8000);
